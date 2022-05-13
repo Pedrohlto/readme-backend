@@ -1,0 +1,19 @@
+insert into rdm_autor (id_autor, nome, dat_nascimento, url_foto, pais) values ('73eff1dd-8968-4f8b-bb3d-42d183f8f971', 'Sam Newman', now(), 'https://images-na.ssl-images-amazon.com/images/S/amzn-author-media-prod/7loo1c64horucg3j1sjdbtguru._SX450_.jpg', 'EUA');
+insert into rdm_editora values ('47ca80e6-2cd0-4d42-b692-7f08252c4238','O"Reilly Media');
+insert into rdm_livro (id_livro, isbn, titulo, autor_id, edicao, ano, editora_id, paginas, sinopse, idioma, dat_publicacao) values ('a4859035-88c5-45c5-bbd7-4d008024c5a0', '1492034029', 'Building Microservices: Designing Fine-Grained Systems','73eff1dd-8968-4f8b-bb3d-42d183f8f971', '1', '2021', '47ca80e6-2cd0-4d42-b692-7f08252c4238',616,'As organizations shift from monolithic applications to smaller, self-contained microservices, distributed systems have become more fine-grained. But developing these new systems brings its own host of problems. This expanded second edition takes a holistic view of topics that you need to consider when building, managing, and scaling microservices architectures.
+
+Through clear examples and practical advice, author Sam Newman gives everyone from architects and developers to testers and IT operators a firm grounding in the concepts. Youll dive into the latest solutions for modeling, integrating, testing, deploying, and monitoring your own autonomous services. Real-world cases reveal how organizations today manage to get the most out of these architectures.
+
+Microservices technologies continue to move quickly. This book brings you up to speed.
+
+Get new information on user interfaces, container orchestration, and serverless
+Align system design with your organizations goals
+Explore options for integrating a service with your system
+Understand how to independently deploy microservices
+Examine the complexities of testing and monitoring distributed services
+Manage security with expanded content around user-to-service and service-to-service models', 'Inglês', now());
+
+
+insert into rdm_autor (id_autor, nome, dat_nascimento, url_foto, pais) values ('e69b35fe-ba44-439d-8f7b-bfe8eb072f23', 'Vaughn Vernon', now(), 'https://images-na.ssl-images-amazon.com/images/S/amzn-author-media-prod/enah6rbm2k9i7g8dv50s20ohm1._SX450_.jpg', 'EUA');
+insert into rdm_editora values ('1f371eb6-8f7c-4e49-822a-57e0ecd0e610','Alta Books');
+insert into rdm_livro (id_livro, isbn, titulo, autor_id, edicao, ano, editora_id, paginas, sinopse, idioma, dat_publicacao) values ('b676f07d-c55c-49a1-9ce1-33466efc4212', '8576089521', 'Implementando Domain-Driven Design','e69b35fe-ba44-439d-8f7b-bfe8eb072f23', '1', '2021', '1f371eb6-8f7c-4e49-822a-57e0ecd0e610',500,'Implementando Domain-Driven Design apresenta uma abordagem completa para o entendimento de domaindriven design (DDD), a fim de conectar fluentemente padrões estratégicos às ferramentas táticas fundamentais de programação. Vaughn Vernon une abordagens guiadas para implementação com arquiteturas modernas, destacando a importância e o valor de focar no domínio de negócios e, ao mesmo tempo, equilibrar com considerações técnicas. Baseado no livro do seminário de Eric Evans, o autor apresenta técnicas práticas de DDD por meio de exemplos a partir de domínios familiares. Cada princípio é fundamentado com exemplos realistas de Java ― todos aplicáveis aos desenvolvedores de C# ― e todo o conteúdo é complementado por um único estudo de caso: a entrega de um sistema SaaS baseado em Scrum de larga escala para um ambiente multitenant. O autor o leva a uma viagem além da abordagem “DDD-lite”, que engloba o DDD somente como ferramenta técnica, e mostra como alavancar os “padrões de projeto estratégicos” usando o Contexto Delimitado, Mapa do Contexto e a Linguagem Ubíqua. Ao usar essas técnicas e exemplos, você pode reduzir o tempo de mercado e melhorar a qualidade, já que constrói um software mais flexível, escalável e precisamente alinhado com suas metas comerciais.', 'Português', now());
